@@ -1,4 +1,6 @@
-const api = process.env.REACT_APP_CONTACTS_API_URL || "http://localhost:4000";
+const api =
+  process.env.REACT_APP_CONTACTS_API_URL ||
+  "http://demo-app-dev2.us-east-1.elasticbeanstalk.com";
 
 let token = localStorage.token;
 
